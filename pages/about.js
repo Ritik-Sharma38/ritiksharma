@@ -22,7 +22,7 @@ export default function About() {
         <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-4 dark:text-white">
           Hey, I'm Ritik Sharma
         </h1>
-        <h2 className="text-2xl text-gray-600 dark:text-gray-400 mb-16">
+        <h2 className="text-2xl text-gray-600 dark:text-gray-400">
           I'm a full stack developer, React.js, Next.js, React-native, Flutter, Google 
           Coud Platform.
         </h2>
