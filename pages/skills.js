@@ -31,7 +31,7 @@ export default function Skills() {
 					Mobile App Development, Website Development, Machine Learning, Deep Learning, Computer Vision
 					<br />
 					<b>CLOUD: </b>
-					React, Next.js, React Native, TensorFlow, Keras
+					Google Cloud Platform, Amazon Web Services
 					<br />
 					<b>TOOLS: </b>
 					Node.js, MongoDB, Git, GitHub, LATEX
