@@ -3,6 +3,9 @@
 
 > Comprises the code for Ritik Sharma's personal website
 
+
+[Click here](https://ritiksharma.ritik-sharma38.vercel.app/) to check the website
+
 ![](https://img.shields.io/badge/compatible--devices-mobiles/desktops/tablets-informational?style=flat&logo=data:image/svg%2bxml;base64,<BASE64_DATA>)
 
 ![](https://img.shields.io/badge/Framework-Next.js-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=ff6347)
@@ -12,6 +15,22 @@
 
 
 
+
+## Setup & Installation
+
+To get the project up running 
+
+- if you use NPM
+```
+$ npm install 
+$ npm run dev
+```
+
+- if you use yarn
+```
+$ yarn
+$ yarn dev
+```
 ## Contributors
 
 [@shivanishimpi:](https://github.com/shivanishimpi)
@@ -33,20 +52,3 @@
 [2.2]: https://user-images.githubusercontent.com/26264600/88994287-99226500-d31a-11ea-9a80-a91afd654777.png
 
 [3]: https://www.linkedin.com/in/ritik-sharma-633703184/
-
-
-## Setup & Installation
-
-To get the project up running 
-
-- if you use NPM
-```
-$ npm install 
-$ npm run dev
-```
-
-- if you use yarn
-```
-$ yarn
-$ yarn dev
-```
