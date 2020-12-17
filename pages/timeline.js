@@ -48,6 +48,14 @@ export default function Timeline() {
 					Worked with a Malaysian client on a cross-platform mobile application using React Native. Finished
 					the project with satisfactory results in 15 days.
 				</Step>
+				<Step title="Expedited another project at University of Cambridge">
+					<i>
+						<b>Cloud Machine Learning & Full Stack Developer</b>
+					</i>
+					<br />
+					Predicting Anemeia among users by predicting the Vitamin D, Vitamin B-12, and Iron content from
+					medical reports and images of the patients.
+				</Step>
 				<Step title="Landed an internship at a German Company">
 					<i>
 						<b>Machine Learning Intern</b>
