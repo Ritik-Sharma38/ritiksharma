@@ -1,6 +1,5 @@
 import { NextSeo } from 'next-seo';
 
-const url = 'https://ritikdsharma.vercel.app/about';
 const title = 'Ritik Sharma';
 const description = 'Full Stack Engineer';
 
@@ -10,9 +9,7 @@ export default function About() {
 			<NextSeo
 				title={title}
 				description={description}
-				canonical={url}
 				openGraph={{
-					url,
 					title,
 					description,
 				}}

@@ -2,8 +2,7 @@ import { NextSeo } from 'next-seo';
 import WebApps from './WebApps';
 import MobApps from './MobApps';
 
-const url = 'https://ritikdsharma.vercel.app/projects';
-const title = 'Ritik Sharma';
+const title = 'Skills - Ritik Sharma';
 const description = 'Full Stack Engineer';
 
 export default function Skills() {
@@ -12,9 +11,7 @@ export default function Skills() {
 			<NextSeo
 				title={title}
 				description={description}
-				canonical={url}
 				openGraph={{
-					url,
 					title,
 					description,
 				}}

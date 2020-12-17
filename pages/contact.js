@@ -1,7 +1,6 @@
 import { NextSeo } from 'next-seo';
 import ProjectCard from '../components/ProjectCard';
 
-const url = 'https://ritikdsharma.vercel.app/about';
 const title = 'Ritik Sharma';
 const description = "Ritik Sharma's contact";
 
@@ -21,9 +20,7 @@ export default function About() {
 			<NextSeo
 				title={title}
 				description={description}
-				canonical={url}
 				openGraph={{
-					url,
 					title,
 					description,
 				}}
@@ -34,35 +31,44 @@ export default function About() {
 				</h2>
 				<p className="text-2xl text-gray-600 dark:text-gray-400">
 					A Full Stack Developer currently looking for new a challenge
-					{/* , experienced in React.js, Next.js, React-native, Flutter, Google */}
 				</p>
 			</div>
-			<div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
-				<h2 className="text-1xl text-gray-600 dark:text-gray-400 mb-10">
-					{/* <b>LANGUAGES: </b>
-					Python, Bash, Java, JavaScript, TypeScript, CSS3, SASS, C/C++, PHP
-					<br />
-					<b>FRAMEWORKS: </b>
-					React, Next.js, React Native, TensorFlow, Keras
-					<br />
-					<b>SOFTWARES: </b>
-					Visual Studio Code, Android Studio, Tableau, Weka
-					<br />
-					<b>DOMAIN: </b>
-					Mobile App Development, Website Development, Machine Learning, Deep Learning, Computer Vision
-					<br />
-					<b>CLOUD: </b>
-					React, Next.js, React Native, TensorFlow, Keras
-					<br />
-					<b>TOOLS: </b>
-					Node.js, MongoDB, Git, GitHub, LATEX */}
-
-					<ProjectCard
-						title="Contact Me"
-						description="
-                        Drop me an email at ritikdsharma@gmail.com or follow me on GitHub 
+			<div className="justify-center items-start max-w-2xl mx-auto mb-16">
+				<h2 className="font-bold text-2xl tracking-tight mb-2 dark:text-white">
+					Want me in your team or want to collaborate?
+				</h2>
+				{/* </div>
+			<div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16"> */}
+				<h3 className="dark:text-gray-300 mb-5">
+					<b>Please feel free to contact me</b>
+				</h3>
+				<br />
+				<ProjectCard
+					title="Email me:"
+					description="
+                        ritikdsharma@gmail.com
+						"
+					href="mailto:ritikdsharma@gmail.com"
+				/>
+				<ProjectCard
+					title="Call me:"
+					description="
+					+91 7977280437
                         "
-					/>
+				/>
+				<ProjectCard
+					title="Follow me on GitHub:"
+					description="
+					+91 7977280437
+						"
+					href="https://github.com/Ritik-Sharma38"
+				/>
+
+				{/* <h3 className="dark:text-gray-300 mb-5">Let's work and build something awesome together</h3> */}
+			</div>
+			<div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
+				<h2 className="font-bold text-2xl tracking-tight mb-2 dark:text-white">
+					Let's build something awesome together
 				</h2>
 			</div>
 		</>

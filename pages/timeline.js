@@ -44,9 +44,12 @@ export default function Timeline() {
 					Impressed by the results, the same German Company I formerly worked with as a Machine Learning
 					Intern offered a full contract for website development and enhancement.
 				</Step>
-				<Step title="Got my first freelance project">
+				<Step title="Finished my first freelance project">
 					Worked with a Malaysian client on a cross-platform mobile application using React Native. Finished
 					the project with satisfactory results in 15 days.
+				</Step>
+				<Step title="Published my first research paper">
+					Published a paper for a complete product developed for detecting depression using vision.
 				</Step>
 				<Step title="Expedited another project at University of Cambridge">
 					<b>Role: </b>Cloud Machine Learning & Full Stack Developer
