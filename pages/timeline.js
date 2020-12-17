@@ -49,25 +49,19 @@ export default function Timeline() {
 					the project with satisfactory results in 15 days.
 				</Step>
 				<Step title="Expedited another project at University of Cambridge">
-					<i>
-						<b>Cloud Machine Learning & Full Stack Developer</b>
-					</i>
+					<b>Role: </b>Cloud Machine Learning & Full Stack Developer
 					<br />
 					Predicting Anemeia among users by predicting the Vitamin D, Vitamin B-12, and Iron content from
 					medical reports and images of the patients.
 				</Step>
 				<Step title="Landed an internship at a German Company">
-					<i>
-						<b>Machine Learning Intern</b>
-					</i>
+					<b>Role: </b>Machine Learning Intern
 					<br />
 					Designed and deployed an interactive chat assistant using machine learning to automate the existing
 					process for addressing customer queries about the company services.
 				</Step>
 				<Step title="Started working at University of Cambridge">
-					<i>
-						<b>Development Intern</b>
-					</i>
+					<b>Role: </b> Development Intern
 					<br />
 					Finished three projects simultaneously and successfully developed three cross-platform applications
 					using React-Native, and Flutter.
@@ -80,9 +74,7 @@ export default function Timeline() {
 			<Year>2019</Year>
 			<ul>
 				<Step title="First Internship at iPing Data Labs">
-					<i>
-						<b>Machine Learning & Computer Vision Intern</b>
-					</i>
+					<b>Role: </b>Machine Learning & Computer Vision Intern
 					<br />
 					Automated quality assurance for industry workers while ensuring safety paraphernalia and smooth
 					execution of industrial processes using Computer Vision.
