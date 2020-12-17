@@ -48,8 +48,11 @@ export default function Container({ children }) {
           <NextLink href="/timeline">
             <a className="p-1 sm:p-4 text-gray-900 dark:text-gray-100">Timeline</a>
           </NextLink>
-          <NextLink href="/about">
+          <NextLink href="/contact">
             <a className="p-1 sm:p-4 text-gray-900 dark:text-gray-100">Contact</a>
+          </NextLink>
+          <NextLink href="/0.pdf">
+            <a className="p-1 sm:p-4 text-gray-900 dark:text-gray-100">Resume</a>
           </NextLink>
         </div>
       </nav>

@@ -1,13 +1,15 @@
-import About from './about'
-import Project from './projects'
-import Timeline from './timeline'
+import About from './about';
+import Project from './projects';
+import Timeline from './timeline';
+import Skills from './skills';
 
 export default function Index() {
-  return (
-    <>
-      <About/>
-      <Project/>
-      <Timeline/>
-    </>
-  )
+	return (
+		<>
+			<About />
+			<Skills />
+			<Project />
+			<Timeline />
+		</>
+	);
 }
