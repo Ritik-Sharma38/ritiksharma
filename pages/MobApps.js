@@ -21,7 +21,7 @@ export default function MobApps() {
 			<div className="flex flex-col justify-center items-start max-w-2xl">
 				<ProjectCard
 					title="CogAn-Friend"
-					description="A android and ios application for detecting user depression"
+					description="Android/iOS app for  "
 					href="/projects"
 					// icon="react2025"
 				/>
