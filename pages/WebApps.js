@@ -2,9 +2,8 @@ import { NextSeo } from 'next-seo';
 import ProjectCard from '../components/ProjectCard'
 
 const url = 'https://ritikdsharma.vercel.app/projects';
-const title = 'web development';
-const description =
-  'react.js, next.js, web application development.';
+const title = 'Ritik Sharma';
+const description = 'Full Stack Engineer';
 
 export default function WebApps() {
     return (
@@ -24,7 +23,7 @@ export default function WebApps() {
                     title="Moonlight & Sunshine"
                     description="A blog website developed using next.js and Mysql database"
                     href="https://wdl-blog.vercel.app/"
-                    icon="nextjs"
+                    // icon="nextjs"
                 />
             </div>
         </>

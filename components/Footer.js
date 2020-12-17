@@ -1,3 +1,5 @@
+import React from "react"
+
 const ExternalLink = ({ href, children }) => (
   <a
     className="text-sm text-gray-500 hover:text-gray-600 transition"
@@ -59,7 +61,7 @@ export default function Footer() {
         </ExternalLink>
         <ExternalLink href="mailto:ritikdsharma@gmail.com">
           <span className="sr-only">Email</span>
-          <svg className="h- w-8" viewBox="0 0 24 24">
+          <svg className="h-8 w-8" viewBox="0 0 24 24">
             <g
               fill="none"
               stroke="currentColor"
@@ -72,6 +74,21 @@ export default function Footer() {
             </g>
           </svg>
         </ExternalLink>
+        {/* <ExternalLink href="0.pdf">
+          <span className="sr-only">Resume</span>
+          <svg className="h-8 w-8" viewBox="0 0 24 24">
+            <g
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+              <polyline points="22,6 12,13 2,6" />
+            </g>
+          </svg>
+        </ExternalLink> */}
       </div>
       <h2 className="text-gray-600 dark:text-gray-400 mb-16">
         ritikdsharma@gmail.com : +91 7977280437
