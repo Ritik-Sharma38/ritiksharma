@@ -44,11 +44,13 @@ $ yarn dev
 [2]: https://www.linkedin.com/in/shivani-shimpi-5113a8170/
 
 
-
 [@ritik-sharma38:](https://github.com/ritik-sharma38)
-[![LinkedIn][2.2]][3]
+[![Twitter][1.2]][3]
+[![LinkedIn][2.2]][4]
 
 [1.2]: https://user-images.githubusercontent.com/26264600/88994487-151cad00-d31b-11ea-8795-da01dd1f29d7.png
 [2.2]: https://user-images.githubusercontent.com/26264600/88994287-99226500-d31a-11ea-9a80-a91afd654777.png
 
-[3]: https://www.linkedin.com/in/ritik-sharma-633703184/
+[3]: https://twitter.com/RD2238
+[4]: https://www.linkedin.com/in/ritik-sharma-633703184/
+
