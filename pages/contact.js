@@ -59,7 +59,7 @@ export default function About() {
 				<ProjectCard
 					title="Follow me on GitHub:"
 					description="
-					+91 7977280437
+					@Ritik-Sharma38
 						"
 					href="https://github.com/Ritik-Sharma38"
 				/>
