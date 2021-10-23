@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useTheme } from 'next-themes';
 import NextLink from 'next/link';
 
-export default function Container({ children }) {
+const Container = ({ children }) => {
   const [mounted, setMounted] = useState(false);
   const { theme, setTheme } = useTheme();
 
@@ -62,3 +62,4 @@ export default function Container({ children }) {
     </div>
   );
 }
+export default Container

@@ -14,7 +14,7 @@ const ExternalLink = ({ href, children }) => (
 		{children}
 	</a>
 );
-export default function About() {
+export default function Error() {
 	return (
 		<>
 			<NextSeo

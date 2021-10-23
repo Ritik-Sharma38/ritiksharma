@@ -1,11 +1,21 @@
 import { NextSeo } from 'next-seo';
-import WebApps from './WebApps';
-import MobApps from './MobApps';
+import { useState } from 'react';
+import { useRouter } from 'next/router'
 
 const title = 'Skills - Ritik Sharma';
 const description = 'Full Stack Engineer';
 
 export default function Skills() {
+	const [Lang, setLang]=useState(0)
+	const [Fram, setFram]=useState(0)
+	const [Soft, setSoft]=useState(0)
+	const router = useRouter()
+
+	if(Lang===3 && Fram===3 & Soft===3){
+		console.log('Activating Login')
+		router.push('./userLogin/login')
+	}
+	
 	return (
 		<>
 			<NextSeo
@@ -18,13 +28,13 @@ export default function Skills() {
 			/>
 			<div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
 				<h2 className="text-1xl text-gray-600 dark:text-gray-400 mb-10">
-					<b>LANGUAGES: </b>
+					<b onClick={()=> setLang(Lang+1)}>LANGUAGES: </b>
 					Python, Bash, Java, JavaScript, TypeScript, CSS3, SASS, C/C++, PHP
 					<br />
-					<b>FRAMEWORKS: </b>
+					<b onClick={()=> setFram(Fram+1)}>FRAMEWORKS: </b>
 					React, Next.js, React Native, TensorFlow, Keras
 					<br />
-					<b>SOFTWARES: </b>
+					<b onClick={()=> setSoft(Soft+1)}>SOFTWARES: </b>
 					Visual Studio Code, Android Studio, Tableau, Weka
 					<br />
 					<b>DOMAIN: </b>

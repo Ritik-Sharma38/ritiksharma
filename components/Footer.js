@@ -43,7 +43,7 @@ export default function Footer() {
             </g>
           </svg>
         </ExternalLink>
-        <ExternalLink href="https://www.linkedin.com/in/ritik-sharma-633703184">
+        <ExternalLink href="https://www.linkedin.com/in/ritiksharma38/">
           <span className="sr-only">LinkedIn</span>
           <svg className="h-8 w-8" viewBox="0 0 24 24">
             <g
@@ -59,7 +59,7 @@ export default function Footer() {
             </g>
           </svg>
         </ExternalLink>
-        <ExternalLink href="mailto:ritikdsharma@gmail.com">
+        <ExternalLink href="mailto:rd@ritiksharma.in">
           <span className="sr-only">Email</span>
           <svg className="h-8 w-8" viewBox="0 0 24 24">
             <g
@@ -91,7 +91,7 @@ export default function Footer() {
         </ExternalLink> */}
       </div>
       <h2 className="text-gray-600 dark:text-gray-400 mb-16">
-        ritikdsharma@gmail.com : +91 7977280437
+        rd@ritiksharma.in : +91 7977280437
       </h2>
     </footer>
   );

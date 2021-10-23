@@ -4,6 +4,7 @@ import Timeline from './timeline';
 import Skills from './skills';
 
 export default function Index() {
+
 	return (
 		<>
 			<About />

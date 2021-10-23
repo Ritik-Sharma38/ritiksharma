@@ -30,12 +30,12 @@ export default function About() {
 					Ritik Sharma
 				</h2>
 				<p className="text-2xl text-gray-600 dark:text-gray-400">
-					A Full Stack Developer currently looking for new a challenge
+					Full Stack Dev and Tech Lead at Edvora &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 				</p>
 			</div>
 			<div className="justify-center items-start max-w-2xl mx-auto mb-16">
 				<h2 className="font-bold text-2xl tracking-tight mb-2 dark:text-white">
-					Want me in your team or want to collaborate?
+					Want to collaborate? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 				</h2>
 				{/* </div>
 			<div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16"> */}
@@ -46,9 +46,9 @@ export default function About() {
 				<ProjectCard
 					title="Email me:"
 					description="
-                        ritikdsharma@gmail.com
+                        rd@ritiksharma.in
 						"
-					href="mailto:ritikdsharma@gmail.com"
+					href="mailto:rd@ritiksharma.in"
 				/>
 				<ProjectCard
 					title="Call me:"

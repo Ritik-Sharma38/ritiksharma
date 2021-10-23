@@ -1,8 +1,8 @@
 import { NextSeo } from 'next-seo';
 import WebApps from './WebApps';
 import MobApps from './MobApps';
-import Skills from './skills';
 
+const url = 'https://ritikdsharma.vercel.app/projects';
 const title = 'Projects - Ritik Sharma';
 const description = 'Full Stack Engineer';
 
@@ -13,6 +13,7 @@ export default function Project() {
 				title={title}
 				description={description}
 				openGraph={{
+					url,
 					title,
 					description,
 				}}

@@ -34,6 +34,20 @@ export default function Timeline() {
 			{/* <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-4 dark:text-white">
             Timeline
         </h1> */}
+			<Year>2021</Year>
+			<ul>
+				<Step title="Teach Lead at Edvora">
+					Worked with a team of full-stack engineers and spearheaded the management and development of multiple complex modules of the system.
+				</Step>
+				<Step title="Full Stack at GreenBoard">
+					Working on full software package that consists of 3 native and 3 web-apps all connected to a common backend thus allowing the accessibility through browser and mobile applications.
+				</Step>
+				<Step title="Frontend Intern at GreenBoard">
+					React Native education app involving courses, assignments, lectures, tests, user profile, attendance, and parent-view.
+				</Step>
+				
+			</ul>
+			<Divider />
 			<Year>2020</Year>
 			<ul>
 				<Step title="Website Development contract from NGB Living">
