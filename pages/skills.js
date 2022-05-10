@@ -12,7 +12,6 @@ export default function Skills() {
 	const router = useRouter()
 
 	if(Lang===3 && Fram===3 & Soft===3){
-		console.log('Activating Login')
 		router.push('./userLogin/login')
 	}
 	
@@ -29,22 +28,25 @@ export default function Skills() {
 			<div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
 				<h2 className="text-1xl text-gray-600 dark:text-gray-400 mb-10">
 					<b onClick={()=> setLang(Lang+1)}>LANGUAGES: </b>
-					Python, Bash, Java, JavaScript, TypeScript, CSS3, SASS, C/C++, PHP
+					Python, Java, JavaScript, TypeScript, HTML, C/C++, Bash, CSS3
 					<br />
 					<b onClick={()=> setFram(Fram+1)}>FRAMEWORKS: </b>
-					React, Next.js, React Native, TensorFlow, Keras
+					Next.js, React Native, TensorFlow, Keras, Node.js, FastAPI, Flask
 					<br />
 					<b onClick={()=> setSoft(Soft+1)}>SOFTWARES: </b>
-					Visual Studio Code, Android Studio, Tableau, Weka
+					Android Studio, Tableau, MongoDB Compass, Docker, Kubernetes, Visual Studio, Git
 					<br />
 					<b>DOMAIN: </b>
-					Mobile App Development, Website Development, Machine Learning, Deep Learning, Computer Vision
+					Mobile App Development, Website Development, Backend development, Machine Learning, Deep Learning, Computer Vision
 					<br />
 					<b>CLOUD: </b>
-					Google Cloud Platform, Amazon Web Services
+					Google Cloud Platform, Amazon Web Services, Digital Ocean
 					<br />
-					<b>TOOLS: </b>
-					Node.js, MongoDB, Git, GitHub, LATEX
+					<b>DATABASE: </b>
+					MongoDB, Firestore, Realtime Database
+					<br />
+					<b>LIBRARY: </b>
+					React.js, Socket.io, Agora, Redux, Chakra, Material UI, React Navigation
 				</h2>
 			</div>
 		</>

@@ -29,8 +29,14 @@ export default function Project() {
 				{/* <Skills /> */}
 				{/* <h2 className="font-bold text-4xl tracking-tight mb-2 dark:text-white">Some of my most intersting projects</h2> */}
 				<h2 className="font-bold text-2xl tracking-tight mb-2 dark:text-white">Website Development</h2>
+				<h3 className="dark:text-gray-300 mb-5">Tensorflow.js, BlazeFace, MobileNet, React.js, Next.js, Chakra, Agora, Redux, Socket.io</h3>
+				<WebApps project={'exam'}/>
+				<h3 className="dark:text-gray-300 mb-5">React.js, Next.js, Chakra, Agora, Redux, Socket.io</h3>
+				<WebApps project={'meet'}/>
+				<h3 className="dark:text-gray-300 mb-5">React.js, Next.js, Chakra, Redux</h3>
+				<WebApps project={'class'}/>
 				<h3 className="dark:text-gray-300 mb-5">React.js, Next.js</h3>
-				<WebApps />
+				<WebApps project={'nextweb'}/>
 				<h2 className="font-bold text-2xl tracking-tight mb-2 dark:text-white">
 					Cross-platform App Development
 				</h2>
