@@ -36,23 +36,26 @@ const Container = ({ children }) => {
             </svg>
           )}
         </button>
-        <div>
+        <div style={{overflowX: 'auto', overflowY: "hidden", marginLeft: '15px'}} className="scrollbar-hide">
           <NextLink href="/">
-            <a className="p-1 sm:p-4 text-gray-900 dark:text-gray-100">
+            <a className="p-2 sm:p-4 text-gray-900 dark:text-gray-100">
               Home
             </a>
           </NextLink>
+          <NextLink href="/experience">
+            <a className="p-2 sm:p-4 text-gray-900 dark:text-gray-100">Experience</a>
+          </NextLink>
           <NextLink href="/projects">
-            <a className="p-1 sm:p-4 text-gray-900 dark:text-gray-100">Projects</a>
+            <a className="p-2 sm:p-4 text-gray-900 dark:text-gray-100">Projects</a>
           </NextLink>
           <NextLink href="/timeline">
-            <a className="p-1 sm:p-4 text-gray-900 dark:text-gray-100">Timeline</a>
+            <a className="p-2 sm:p-4 text-gray-900 dark:text-gray-100">Timeline</a>
           </NextLink>
           <NextLink href="/contact">
-            <a className="p-1 sm:p-4 text-gray-900 dark:text-gray-100">Contact</a>
+            <a className="p-2 sm:p-4 text-gray-900 dark:text-gray-100">Contact</a>
           </NextLink>
           <NextLink href="/0.pdf">
-            <a className="p-1 sm:p-4 text-gray-900 dark:text-gray-100">Resume</a>
+            <a className="p-2 sm:p-4 text-gray-900 dark:text-gray-100">Resume</a>
           </NextLink>
         </div>
       </nav>

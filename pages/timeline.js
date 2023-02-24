@@ -28,12 +28,35 @@ const Step = ({ title, children }) => {
 	);
 };
 
+const Step_ = ({ children }) => {
+	return (
+		<li className="mb-4 ml-2">
+			<p className="text-gray-700 dark:text-gray-400 ml-6">{children}</p>
+		</li>
+	);
+};
+
 export default function Timeline() {
 	return (
 		<div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
 			{/* <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-4 dark:text-white">
             Timeline
         </h1> */}
+			<Year>2022</Year>
+			<ul>
+				<Step title="Cheif Technology Officer at Edvora">
+					Managed cross-team development, setup workflows and pipelines, documentations and technology operation procedures across the teams
+				</Step>
+				<Step_>
+					Setup an efficient DevOps pipeline across the system with SOPs for testing, staging, and production environments
+				</Step_>
+				<Step_>
+					Wrote deployment procedures and testing scripts and monitored kubernetes pods and deployments, setting alerts for reporting any service issues
+				</Step_>
+				<Step_>
+					Facilitated production of the entire system, auto-scaling of clusters, horizontal scaling of pods, and load balancers
+				</Step_>
+			</ul>
 			<Year>2021</Year>
 			<ul>
 				<Step title="Teach Lead at Edvora">
@@ -45,7 +68,7 @@ export default function Timeline() {
 				<Step title="Frontend Intern at GreenBoard">
 					React Native education app involving courses, assignments, lectures, tests, user profile, attendance, and parent-view.
 				</Step>
-				
+
 			</ul>
 			<Divider />
 			<Year>2020</Year>

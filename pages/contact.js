@@ -30,7 +30,7 @@ export default function About() {
 					Ritik Sharma
 				</h2>
 				<p className="text-2xl text-gray-600 dark:text-gray-400">
-					Full Stack Dev and Tech Lead at Edvora &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					Cheif Technology Officer at Edvora &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 				</p>
 			</div>
 			<div className="justify-center items-start max-w-2xl mx-auto mb-16">

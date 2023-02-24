@@ -25,7 +25,7 @@ export default function Skills() {
 					description,
 				}}
 			/>
-			<div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
+			<div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-12">
 				<h2 className="text-1xl text-gray-600 dark:text-gray-400 mb-10">
 					<b onClick={()=> setLang(Lang+1)}>LANGUAGES: </b>
 					Python, Java, JavaScript, TypeScript, HTML, C/C++, Bash, CSS3
@@ -34,16 +34,16 @@ export default function Skills() {
 					Next.js, React Native, TensorFlow, Keras, Node.js, FastAPI, Flask
 					<br />
 					<b onClick={()=> setSoft(Soft+1)}>SOFTWARES: </b>
-					Android Studio, Tableau, MongoDB Compass, Docker, Kubernetes, Visual Studio, Git
+					Kubernetes, Docker, Promethus, Android Studio, MongoDB Compass, Git
 					<br />
 					<b>DOMAIN: </b>
-					Mobile App Development, Website Development, Backend development, Machine Learning, Deep Learning, Computer Vision
+					Mobile App Development, Website Development, Backend development, DevOps, Cloud developer, Machine Learning, Deep Learning, Computer Vision
 					<br />
 					<b>CLOUD: </b>
 					Google Cloud Platform, Amazon Web Services, Digital Ocean
 					<br />
 					<b>DATABASE: </b>
-					MongoDB, Firestore, Realtime Database
+					MongoDB, Firestore, Realtime Database, In Memory Redis Database
 					<br />
 					<b>LIBRARY: </b>
 					React.js, Socket.io, Agora, Redux, Chakra, Material UI, React Navigation
