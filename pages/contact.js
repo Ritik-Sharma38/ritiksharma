@@ -15,6 +15,13 @@ const ExternalLink = ({ href, children }) => (
 	</a>
 );
 export default function About() {
+	const test = () => {
+		try{
+			window.parent.postMessage('this is test message')
+		}catch(err) {
+			console.log(err)
+		}
+	}
 	return (
 		<>
 			<NextSeo
@@ -71,6 +78,7 @@ export default function About() {
 					Let's build something awesome together
 				</h2>
 			</div>
+			<button onClick={()=> test()} >Test</button>
 		</>
 	);
 }
