@@ -18,7 +18,9 @@ export default function About() {
 	const test = () => {
 		try{	
 			console.log('calling')
-			window.parent.postMessage('this is test message')
+			window.parent.postMessage('this is test message', '*')
+			window.top.postMessage('this is test message', '*')
+			window.postMessage('this is bare test', '*')
 		}catch(err) {
 			console.log(err)
 		}
