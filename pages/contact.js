@@ -16,7 +16,8 @@ const ExternalLink = ({ href, children }) => (
 );
 export default function About() {
 	const test = () => {
-		try{
+		try{	
+			console.log('calling')
 			window.parent.postMessage('this is test message')
 		}catch(err) {
 			console.log(err)
