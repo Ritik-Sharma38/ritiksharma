@@ -20,7 +20,6 @@ export default function About() {
 			console.log('calling')
 			window.parent.postMessage('this is test message', '*')
 			window.top.postMessage('this is test message', '*')
-			window.postMessage('this is bare test', '*')
 		}catch(err) {
 			console.log(err)
 		}
@@ -76,12 +75,11 @@ export default function About() {
 
 				{/* <h3 className="dark:text-gray-300 mb-5">Let's work and build something awesome together</h3> */}
 			</div>
-			<div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
+			<div onClick={()=> test()} className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
 				<h2 className="font-bold text-2xl tracking-tight mb-2 dark:text-white">
 					Let's build something awesome together
 				</h2>
 			</div>
-			<button onClick={()=> test()} >Test</button>
 		</>
 	);
 }
