@@ -6,6 +6,21 @@ const description = 'CTO';
 
 const Experience = () => {
 
+    const pps = [
+        {
+            "head": "React Native Development",
+            "text": "Working on developing two react native apps consisting different transitions, displaying different visuals of property and multiple details. Apps developed by React Native CLI for Android and iOS."
+        },
+        {
+            "head": "Developed Modules",
+            "text": "Projects, Home loan, Property View, Passbooks, Enquiries, Drawing Canvas."
+        },
+        {
+            "head": "Libraries",
+            "text": "Redux Saga/Thunk, Native base, React Navigation, Firebase."
+        },
+    ]
+
     const cto = [
         {
             "head": "Cross-team Development Management",
@@ -152,7 +167,20 @@ const Experience = () => {
 				</h2>  */}
                 {/* <Skills /> */}
                 {/* <h2 className="font-bold text-4xl tracking-tight mb-2 dark:text-white">Some of my most intersting projects</h2> */}
-                <h2 className="font-bold text-2xl tracking-tight mb-2 dark:text-white">Edvora - Cheif Technology Officer</h2>
+                
+                <h2 className="font-bold text-2xl tracking-tight mb-2 dark:text-white">PropertyPistol - Software Developer</h2>
+
+                <div style={{paddingLeft: "10px", borderBottom: "1px solid rgba(80, 80, 80, 0.4)"}}>
+                    {pps.map((item) => {
+                        return (
+                            <h3 className="dark:text-gray-300 mb-3">
+                                <b>{item.head}</b>: {item.text}
+                            </h3>
+                        )
+                    })}
+                </div>
+                
+                <h2 className="font-bold text-2xl tracking-tight mb-2 dark:text-white">Edvora EdTeach StartUp - Cheif Technology Officer</h2>
 
                 <div style={{paddingLeft: "10px", borderBottom: "1px solid rgba(80, 80, 80, 0.4)"}}>
                     {cto.map((item) => {
