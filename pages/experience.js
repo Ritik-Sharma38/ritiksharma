@@ -180,7 +180,7 @@ const Experience = () => {
                     })}
                 </div>
                 
-                <h2 className="font-bold text-2xl tracking-tight mb-2 dark:text-white">Edvora EdTeach StartUp - Cheif Technology Officer</h2>
+                <h2 style={{marginTop: "25px"}} className="font-bold text-2xl tracking-tight mb-2 dark:text-white">Edvora EdTeach StartUp - Cheif Technology Officer</h2>
 
                 <div style={{paddingLeft: "10px", borderBottom: "1px solid rgba(80, 80, 80, 0.4)"}}>
                     {cto.map((item) => {
