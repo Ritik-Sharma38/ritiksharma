@@ -54,7 +54,7 @@ const Container = ({ children }) => {
           <NextLink href="/contact">
             <a className="p-2 sm:p-4 text-gray-900 dark:text-gray-100">Contact</a>
           </NextLink>
-          <NextLink href="/Ritik.pdf">
+          <NextLink href="/ritik.pdf">
             <a className="p-2 sm:p-4 text-gray-900 dark:text-gray-100">Resume</a>
           </NextLink>
         </div>

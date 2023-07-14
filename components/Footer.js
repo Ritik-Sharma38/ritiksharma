@@ -74,7 +74,7 @@ export default function Footer() {
             </g>
           </svg>
         </ExternalLink>
-        {/* <ExternalLink href="Ritik.pdf">
+        {/* <ExternalLink href="ritik.pdf">
           <span className="sr-only">Resume</span>
           <svg className="h-8 w-8" viewBox="0 0 24 24">
             <g
