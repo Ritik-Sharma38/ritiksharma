@@ -8,8 +8,8 @@ const Experience = () => {
 
     const pps = [
         {
-            "head": "React Native Development",
-            "text": "Working on developing two react native apps consisting different transitions, displaying different visuals of property and multiple details. Apps developed by React Native CLI for Android and iOS."
+            "head": "Software Development",
+            "text": "Working on developing two react native apps and services consisting different transitions, displaying different visuals of property and multiple details. Apps developed by React Native CLI for Android and iOS."
         },
         {
             "head": "Developed Modules",
@@ -18,6 +18,10 @@ const Experience = () => {
         {
             "head": "Libraries",
             "text": "Redux Saga/Thunk, Native base, React Navigation, Firebase."
+        },
+        {
+            "head": "TechStack",
+            "text": "React.js, React Native, Angular, TypeScript, JavaScript, Node.js, Python - FastApi, MongoDB, Redis, Jira/Redmine."
         },
     ]
 
@@ -50,6 +54,10 @@ const Experience = () => {
 
     const tl = [
         {
+            "head": "Development",
+            "text": " Developed Examination Portal, Classrooms, Timeline, Video Conferencing with Whiteboard."
+        },
+        {
             "head": "CI/CD Pipeline",
             "text": " Managed CI/CD pipeline deployment and management of frontend, backend, cloud services, and third-party services, and deployments through Docker and Kubernetes on Digital Ocean."
         },
@@ -63,7 +71,7 @@ const Experience = () => {
         },
         {
             "head": "TechStack",
-            "text": "React.js, Next.js, Chakra UI, FastAPI, Redis, MongoDB, Digital Ocean, Kubernetes, Docker, Socket.io, Agora, Jira."
+            "text": "React.js, React Native, Next.js, Chakra UI, Node.js, Express.js, TypeScript, JavaScript, FastAPI, Redis, MongoDB, Digital Ocean, Kubernetes, Docker, Socket.io, Agora, Jira."
         }
     ]
 
