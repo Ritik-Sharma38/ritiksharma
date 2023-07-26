@@ -15,7 +15,18 @@ const ExternalLink = ({ href, children }) => (
 	</a>
 );
 export default function About() {
-	
+	const test = () => {
+		console.log('heres')
+		setTimeout(() => {
+			window.open('https://pistolsyn.page.link/WzTi', '_self')
+		}, 2000);
+	}
+	const test2 = () => {
+		console.log('heres2')
+		
+		window.open('https://pistolsyn.page.link/WzTi', '_self')
+		
+	}
 	return (
 		<>
 			<NextSeo
@@ -67,7 +78,8 @@ export default function About() {
 
 				{/* <h3 className="dark:text-gray-300 mb-5">Let's work and build something awesome together</h3> */}
 			</div>
-			<div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
+			<button onClick={()=>test2()}>test2</button>
+			<div onClick={()=>test()} className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
 				<h2 className="font-bold text-2xl tracking-tight mb-2 dark:text-white">
 					Let's build something awesome together
 				</h2>
