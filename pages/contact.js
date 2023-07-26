@@ -1,6 +1,5 @@
 import { NextSeo } from 'next-seo';
 import ProjectCard from '../components/ProjectCard';
-import {useEffect} from 'react'
 
 const title = 'Ritik Sharma';
 const description = "Ritik Sharma's contact";
@@ -16,13 +15,6 @@ const ExternalLink = ({ href, children }) => (
 	</a>
 );
 export default function About() {
-	useEffect(() => {
-		const x = setTimeout(()=> {
-			window.open('https://pistolsyn.page.link/WzTi', '_self')
-		}, 2000)
-
-		return () => clearTimeout(x)
-	}, [])
 	return (
 		<>
 			<NextSeo
