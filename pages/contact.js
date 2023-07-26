@@ -17,9 +17,11 @@ const ExternalLink = ({ href, children }) => (
 export default function About() {
 	const test = () => {
 		console.log('heres')
-		setTimeout(() => {
+		const x = setInterval(()=> {
 			window.open('https://pistolsyn.page.link/WzTi', '_self')
-		}, 2000);
+
+			clearInterval(x)
+		}, 2000)
 	}
 	const test2 = () => {
 		console.log('heres2')
