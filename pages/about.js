@@ -1,7 +1,7 @@
 import { NextSeo } from 'next-seo';
 
 const title = 'Ritik Sharma';
-const description = 'Full Stack Engineer';
+const description = 'Full Stack Developer';
 
 export default function About() {
 	return (
@@ -17,7 +17,7 @@ export default function About() {
 			<div className="flex flex-col justify-center items-start max-w-1xl mx-auto mb-16">
 				<h2 className="font-bold text-2xl md:text-5xl tracking-tight mb-4 dark:text-white">Ritik Sharma</h2>
 				<p className="text-2xl text-gray-600 dark:text-gray-400">
-					Software Developer at PropertyPistol &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					Software Developer at Blenheim Chalcot &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 					{/* , experienced in React.js, Next.js, React-native, Flutter, Google */}
 				</p>
 			</div>
