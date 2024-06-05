@@ -6,6 +6,17 @@ const description = 'CTO';
 
 const Experience = () => {
 
+    const bc = [
+        {
+            "head": "Software Developer",
+            "text": "Working on developing projects aimed at automating performance assessment and streamlining the employee performance review (PRF) process. Additionally, I have led the development of a project focused on efficiently managing employee allocation across various projects."
+        },
+        {
+            "head": "TechStack",
+            "text": "React.js, Next.js, TypeScript, Node.js, Python - FastApi, Azure functions"
+        },
+    ]
+
     const pps = [
         {
             "head": "Software Development",
@@ -176,6 +187,18 @@ const Experience = () => {
                 {/* <Skills /> */}
                 {/* <h2 className="font-bold text-4xl tracking-tight mb-2 dark:text-white">Some of my most intersting projects</h2> */}
                 
+                <h2 className="font-bold text-2xl tracking-tight mb-2 dark:text-white">Blenheim Chalcot - Software Developer</h2>
+
+                <div style={{paddingLeft: "10px", borderBottom: "1px solid rgba(80, 80, 80, 0.4)"}}>
+                    {bc.map((item) => {
+                        return (
+                            <h3 className="dark:text-gray-300 mb-3">
+                                <b>{item.head}</b>: {item.text}
+                            </h3>
+                        )
+                    })}
+                </div>
+
                 <h2 className="font-bold text-2xl tracking-tight mb-2 dark:text-white">PropertyPistol - Software Developer</h2>
 
                 <div style={{paddingLeft: "10px", borderBottom: "1px solid rgba(80, 80, 80, 0.4)"}}>
