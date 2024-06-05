@@ -2,7 +2,7 @@ import { NextSeo } from "next-seo"
 
 const url = 'https://ritikdsharma.vercel.app/';
 const title = 'Experience - Ritik Sharma';
-const description = 'CTO';
+const description = 'Software Developer';
 
 const Experience = () => {
 
