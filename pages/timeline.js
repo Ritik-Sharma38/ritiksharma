@@ -42,6 +42,27 @@ export default function Timeline() {
 			{/* <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-4 dark:text-white">
             Timeline
         </h1> */}
+			<Year>2023</Year>
+				<ul>
+					<Step title="Blenheim Chalcot - Software Developer">
+						Joined as a Software Developer, focusing on projects automating performance assessment and streamlining the employee performance review process.
+					</Step>
+					<Step_>
+						Led the development of a project managing employee allocation across different projects.
+					</Step_>
+					<Step_>
+						Utilized React.js, Next.js, TypeScript, Node.js, Python - FastApi, and Azure functions, Power Automate.
+					</Step_>
+					<Step title="PropertyPistol - Software Developer">
+						Worked on developing two React Native apps and services with various transitions, visuals, and details for properties.
+					</Step>
+					<Step_>
+						Developed modules including Projects, Home Loan, Property View, Passbooks, Enquiries, and Drawing Canvas.
+					</Step_>
+					<Step_>
+						Utilized Redux Saga/Thunk, Native base, React Navigation, and Firebase libraries.
+					</Step_>
+				</ul>
 			<Year>2022</Year>
 			<ul>
 				<Step title="Cheif Technology Officer at Edvora">

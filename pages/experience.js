@@ -13,7 +13,7 @@ const Experience = () => {
         },
         {
             "head": "TechStack",
-            "text": "React.js, Next.js, TypeScript, Node.js, Python - FastApi, Azure functions"
+            "text": "React.js, Next.js, TypeScript, Node.js, Python - FastApi, Azure functions, Power Automate."
         },
     ]
 
