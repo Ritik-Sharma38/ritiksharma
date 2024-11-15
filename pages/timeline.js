@@ -42,6 +42,15 @@ export default function Timeline() {
 			{/* <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-4 dark:text-white">
             Timeline
         </h1> */}
+			<Year>2024</Year>
+				<ul>
+					<Step title="Blenhim Chalcot - Specialist, Software Developer">
+						Working on projects with UK Councils to handle large PDF datasets, using AI to redact sensitive information. Developing secure, GDPR-compliant servers and databases, and building a chatbot server to handle queries from thousands of users about Freedom of Information requests from UK Councils.
+					</Step>
+					<Step_>
+						Tech stack: Azure DevOps, Azure Pipelines, Azure App Services, Azure Monitoring, PostgreSQL, Node.js, Python, Azure Functions, React.js.
+					</Step_>
+				</ul>
 			<Year>2023</Year>
 				<ul>
 					<Step title="Blenheim Chalcot - Software Developer">

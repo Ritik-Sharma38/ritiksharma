@@ -8,8 +8,16 @@ const Experience = () => {
 
     const bc = [
         {
+            "head": "Specialist, Software Engineer",
+            "text": "Working on projects with UK Councils, handling large amounts of PDF data, performing AI-based processing to redact personal information, medical records, and other sensitive sections. Responsible for creating highly secured and GDPR-compliant servers and databases. Additionally, I am working on a server for a chatbot designed to handle queries from thousands of users, providing information about Freedom of Information requests from UK Councils."
+        },  
+        {
+            "head": "TechStack",
+            "text": "Azure DevOps, Azure Pipelines, Azure App Services, Azure Monitoring, PostgreSQL, Node.js, Python, Azure Functions, React.js."
+        },        
+        {
             "head": "Software Developer",
-            "text": "Working on developing projects aimed at automating performance assessment and streamlining the employee performance review (PRF) process. Additionally, I have led the development of a project focused on efficiently managing employee allocation across various projects."
+            "text": "Worked on developing projects aimed at automating performance assessment and streamlining the employee performance review (PRF) process. Additionally, I have led the development of a project focused on efficiently managing employee allocation across various projects."
         },
         {
             "head": "TechStack",
@@ -187,7 +195,7 @@ const Experience = () => {
                 {/* <Skills /> */}
                 {/* <h2 className="font-bold text-4xl tracking-tight mb-2 dark:text-white">Some of my most intersting projects</h2> */}
                 
-                <h2 className="font-bold text-2xl tracking-tight mb-2 dark:text-white">Blenheim Chalcot - Software Developer</h2>
+                <h2 className="font-bold text-2xl tracking-tight mb-2 dark:text-white">Blenheim Chalcot - Specialist, Software Developer</h2>
 
                 <div style={{paddingLeft: "10px", borderBottom: "1px solid rgba(80, 80, 80, 0.4)"}}>
                     {bc.map((item) => {
