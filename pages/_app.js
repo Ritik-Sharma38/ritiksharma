@@ -9,7 +9,7 @@ import Footer from '../components/Footer';
 import SEO from '../next-seo.config';
 
 export default function MyApp({ Component, pageProps }) {
-
+  return </>
   return (
     <ThemeProvider attribute="class">
       <Head>
