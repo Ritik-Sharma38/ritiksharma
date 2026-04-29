@@ -5,7 +5,7 @@ import Skills from './skills';
 import Experience from './experience';
 
 export default function Index() {
-
+ return <></>
 	return (
 		<>
 			<About />
